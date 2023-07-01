@@ -6,7 +6,7 @@ async function sorgu(user) {
         maxBodyLength: Infinity,
         url: `https://www.instagram.com/api/v1/users/web_profile_info/?username=${user}`,
         headers: {
-            
+             // Video daki gibi bir profile gidin ağ kısmına girin ve username= yazanı bulun video daki gösterilen şekilde kopyalayın ve buraya yapıştırın.
         }
     };
 
