@@ -25,6 +25,8 @@ async function sorgu(user) {
             status: true,
             username: x.data.user.username,
             name: x.data.user.full_name,
+            is_verified_account: x.data.user.is_verified,
+            is_private: x.data.user.is_private,
             followers: x.data.user.edge_followed_by.count,
             following: x.data.user.edge_follow.count,
             id: x.data.user.id,
